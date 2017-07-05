@@ -39,7 +39,7 @@ public class TranslationWithRetroActivity extends AppCompatActivity {
     }
 
     public void translateThis(String translate){
-        api.insertUser("AIzaSyD0K3AWq35Mrnk63_IkJFgwSRZgRJ_2vFg", translate, "te", "en", new Callback<JsonObject>() {
+        api.insertUser("AIzaSyD0K3AWq35Mrnk63_I************", translate, "te", "en", new Callback<JsonObject>() {
             @Override
             public void success(JsonObject jsonObject, Response response) {
                 Log.d(TAG, "success: " + jsonObject.toString());
